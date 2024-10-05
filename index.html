@@ -469,7 +469,7 @@
 				opacity: 0.5 !important
 			}
 
-			
+
 			.card-container {
 				display: flex;
 				justify-content: space-around;
@@ -492,6 +492,20 @@
 				transform: scale(1.05);
 				/* Efeito de zoom ao passar o mouse */
 				transition: transform 0.3s ease;
+			}
+
+			@media (max-width: 600px) {
+				.card-container {
+					justify-content: center;
+					/* Centraliza os cards em telas pequenas */
+				}
+
+				.instagram-media {
+					flex: 1 1 100%;
+					/* Permite que os cards ocupem toda a largura disponível */
+					max-width: 100%;
+					/* Define largura máxima como 100% para telas menores */
+				}
 			}
 		</style>
 	</div>
@@ -548,15 +562,20 @@
 	<div class="cards">
 		<div class="card red">
 			<p class="tip">O Direito Digital Contratual</p>
-			<p class="second-text">A digitalização da sociedade transferiu as relações jurídicas para o ambiente virtual, originando o Direito Digital Contratual, que regula os contratos digitais. Esse ramo do direito evolui junto com a tecnologia, possibilitando a criação de novas formas de negócios e contratos inteligentes.</p>
+			<p class="second-text">A digitalização da sociedade transferiu as relações jurídicas para o ambiente
+				virtual, originando o Direito Digital Contratual, que regula os contratos digitais. Esse ramo do direito
+				evolui junto com a tecnologia, possibilitando a criação de novas formas de negócios e contratos
+				inteligentes.</p>
 		</div>
 		<div class="card blue">
 			<p class="tip">Segurança Jurídica</p>
-			<p class="second-text">O Direito Digital Contratual visa garantir a segurança jurídica nas relações contratuais digitais, estabelecendo regras claras e precisas.</p>
+			<p class="second-text">O Direito Digital Contratual visa garantir a segurança jurídica nas relações
+				contratuais digitais, estabelecendo regras claras e precisas.</p>
 		</div>
 		<div class="card green">
 			<p class="tip">Resolução de Conflitos</p>
-			<p class="second-text">Em caso de disputas, o Direito Digital Contratual oferece um arcabouço legal para a resolução de conflitos.</p>
+			<p class="second-text">Em caso de disputas, o Direito Digital Contratual oferece um arcabouço legal para a
+				resolução de conflitos.</p>
 		</div>
 	</div>
 
@@ -566,7 +585,7 @@
 			style="border: 0; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5), 0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:100%;">
 			<div style="padding:16px;">
 				<a href="https://www.instagram.com/p/CvvyJwVrVXE"
-					style="background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
+					style="background:#FFFFFF; line-height:0; padding:0; text-align:center; text-decoration:none; width:100%;"
 					target="_blank">
 					<div style="padding-top: 16px;">
 						<img src="images/post_1.png" alt="Descrição da Imagem"
@@ -575,12 +594,12 @@
 				</a>
 			</div>
 		</blockquote>
-
+	
 		<blockquote class="instagram-media zoom-card"
 			style="border: 0; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5), 0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:100%;">
 			<div style="padding:16px;">
 				<a href="https://www.instagram.com/p/CYYA09FNgdC/"
-					style="background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
+					style="background:#FFFFFF; line-height:0; padding:0; text-align:center; text-decoration:none; width:100%;"
 					target="_blank">
 					<div style="padding-top: 16px;">
 						<img src="images/post_2.png" alt="Descrição da Imagem"
@@ -589,12 +608,12 @@
 				</a>
 			</div>
 		</blockquote>
-
+	
 		<blockquote class="instagram-media zoom-card"
 			style="border: 0; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5), 0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:100%;">
 			<div style="padding:16px;">
 				<a href="https://www.instagram.com/p/CYYAq47NdKd/"
-					style="background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
+					style="background:#FFFFFF; line-height:0; padding:0; text-align:center; text-decoration:none; width:100%;"
 					target="_blank">
 					<div style="padding-top: 16px;">
 						<img src="images/post_3.png" alt="Descrição da Imagem"
@@ -605,6 +624,7 @@
 		</blockquote>
 	</div>
 	<script async src="//www.instagram.com/embed.js"></script>
+	
 	<div class="footer-container">
 		<footer class="bg-body-tertiary text-center py-4">
 			<i class="fas fa-envelope"></i> spsyaralian@gmail.com
