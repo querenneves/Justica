@@ -470,19 +470,23 @@
 				opacity: 0.5 !important
 			}
 
+			
 			.card-container {
 				display: flex;
+				justify-content: space-around;
+				/* Ajusta o espaçamento entre os cards */
 				flex-wrap: wrap;
-				justify-content: center;
-				gap: 20px;
-				/* Espaçamento entre os cards */
-				padding: 20px;
+				/* Faz com que os cards se ajustem em telas menores */
+				gap: 10px;
+				/* Espaço entre os cards */
 			}
 
 			.instagram-media {
-				width: 100%;
-				max-width: 540px;
-				min-width: 326px;
+				flex: 1;
+				min-width: 300px;
+				/* Largura mínima dos cards */
+				max-width: 400px;
+				/* Largura máxima dos cards */
 			}
 
 			.zoom-card:hover {
